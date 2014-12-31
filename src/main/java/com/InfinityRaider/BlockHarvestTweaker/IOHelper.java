@@ -59,5 +59,5 @@ public class IOHelper {
             "#tool is axe, pickaxe or shovel" +
             "#Harvestlevel means: 0 = wood, 1 = stone, 2 = iron, 3 = diamond (you can go higher, for instance if you have tconstruct installed)\n" +
             "#Note that a harvested block dropping its item depends on the material of it, for example sand will always drop its item, but stone will not\n" +
-            "#Only define one entry per line, meta is optional. Example: minecraft:stone,pickaxe,2";
+            "#Only define one entry per line, meta is optional (if you don't specify meta, it will change it for all the damga values). Example: minecraft:stone,pickaxe,2";
 }
